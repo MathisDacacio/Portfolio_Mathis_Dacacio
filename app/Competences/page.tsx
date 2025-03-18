@@ -32,7 +32,7 @@ export default function Competences() {
         projects={[
           {
             name: "Page pour débutant HTML",
-            image: "https://via.placeholder.com/100",
+            image: "HTML_pour_debutant.png",
             link: "https://github.com/MathisDacacio/Page-pour-d-butant-HTML",
             linksentence: "Voir le projet sur Github",
             date: "2024",
@@ -50,7 +50,7 @@ export default function Competences() {
         projects={[
           {
             name: "Page pour débutant CSS",
-            image: "/images/projet-css.png",
+            image: "CSS_pour_debutant.png",
             link: "https://github.com/MathisDacacio/Page-pour-debutant-CSS",
             linksentence: "Voir le projet sur Github",
             date: "2024",
@@ -68,7 +68,7 @@ export default function Competences() {
         projects={[
           {
             name: "Resto Dons",
-            image: "/images/projet-javascript2.png",
+            image: "RestoDuCoeur.JPG",
             date: "2024",
             link: "https://github.com/Sterbenfr/CRM",
             linksentence: "Voir le projet sur Github",
@@ -77,7 +77,7 @@ export default function Competences() {
           },
           {
             name: "Portfolio Mathis Dacacio",
-            image: "/images/projet-javascript.png",
+            image: "Screen_Portfolio.png",
             date: "2025",
             link: "https://github.com/MathisDacacio/Portfolio_Mathis_Dacacio",
             linksentence: "Voir le projet sur Github",
@@ -95,7 +95,7 @@ export default function Competences() {
         projects={[
           {
             name: "Bataille navale",
-            image: "/images/projet-c.png",
+            image: "Screen_bataille_navale.png",
             date: "2023",
             link: "https://github.com/MathisDacacio/Bataille_Navale_C",
             linksentence: "Voir le projet sur Github",
@@ -104,7 +104,7 @@ export default function Competences() {
           },
           {
             name: "Casse Brique",
-            image: "/images/projet-c2.png",
+            image: "Screen_Casse_Brique.png",
             date: "2024",
             link: "https://github.com/MathisDacacio/Casse_Brique_C",
             linksentence: "Voir le projet sur Github",
@@ -122,7 +122,7 @@ export default function Competences() {
         projects={[
           {
             name: "Jeu Snake",
-            image: "/images/projet-cpp.png",
+            image: "Screen_jeu_snake.png",
             date: "2024",
             link: "https://www.tinkercad.com/things/8Q33b7YFgs4-jeu-snake?sharecode=ncGy_kMJmo2T9c6lzfR3fyQLx2LANXMwf36P0B04Pao",
             linksentence: "Voir le projet sur Tinkercad",
@@ -131,7 +131,7 @@ export default function Competences() {
           },
           {
             name: "Station de communication entre M5Stack",
-            image: "/images/projet-cpp2.png",
+            image: "Screen_m5stack.png",
             date: "2024",
             link: "https://github.com/MathisDacacio/Communication-M5stack",
             linksentence: "Voir le projet sur Github",
@@ -140,7 +140,7 @@ export default function Competences() {
           },
           {
             name: "Register 8bits en cascade",
-            image: "/images/projet-cpp2.png",
+            image: "Screen_Register_cascade.png",
             date: "2024",
             link: "https://www.tinkercad.com/things/0pHT1gI3MbI-register-8bits-en-cascade?sharecode=2jRSAKsvcO8_jFKrAyTK59h1umPIatHwH29IXTNVPBw",
             linksentence: "Voir le projet sur Tinkercad",
@@ -149,7 +149,7 @@ export default function Competences() {
           },
           {
             name: "Simulation feu d'un Carrefour",
-            image: "/images/projet-cpp2.png",
+            image: "Screen_Feu_carrefour.png",
             date: "2024",
             link: "https://www.tinkercad.com/things/hK3vLGZ3o19-feu-carrefour-pieton?sharecode=8Hp4DbEGBEESsZLNdQcK6Sq6Oa3Y2pZNcbQVE9MSKMg",
             linksentence: "Voir le projet sur Tinkercad",

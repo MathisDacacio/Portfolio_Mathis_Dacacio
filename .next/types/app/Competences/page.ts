@@ -1,4 +1,4 @@
-// File: C:\Enigma\Pro\Portfolio_Mathis_Dacacio\app\Competences\page.tsx
+// File: C:\Enigma\Pro\Portfolio_mathis_dacacio\app\Competences\page.tsx
 import * as entry from '../../../../app/Competences/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

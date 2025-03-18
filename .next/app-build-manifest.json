@@ -12,10 +12,11 @@
       "static/css/app/Competences/page.css",
       "static/chunks/app/Competences/page.js"
     ],
-    "/not-found": [
+    "/Contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/css/app/Contact/page.css",
+      "static/chunks/app/Contact/page.js"
     ]
   }
 }

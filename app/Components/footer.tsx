@@ -18,7 +18,7 @@ export default function Footer() {
         </button>
         </div>
       </div>
-      <p>Derniere modification le: 21/01/2025</p>
+      <p>Derniere modification le: 18/03/2025</p>
       <p>Site en cours de modification !</p>
     </footer>
   );
