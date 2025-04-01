@@ -9,8 +9,6 @@
     color: white;
     position: relative;
 }
-
-
   
 .aboutme_pageTitle__DMNvx {
     display: flex;
@@ -47,7 +45,7 @@
   }
   
   .aboutme_cardWrapper__KuUsd {
-    width: 550px;
+    width: 400px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -56,15 +54,16 @@
   .aboutme_card__vNwJ_ {
     background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 12px;
+    margin: 10px 0 20% 0;
+    border-radius: 15%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 450px;
+    width: 350px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
   }
   
   .aboutme_card__vNwJ_ h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #212936;
     margin-bottom: 30px;
   }
@@ -75,7 +74,7 @@
   }
   
   .aboutme_card__vNwJ_ li {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #212936;
     margin: 10px 0;
   }
@@ -92,7 +91,7 @@
   }
   
   .aboutme_navButton__mO3yn:hover {
-    background-color: #e6b800;
+    background-color: #c2a457;
   }
   
   

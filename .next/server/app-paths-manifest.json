@@ -2,6 +2,5 @@
   "/page": "app/page.js",
   "/Competences/page": "app/Competences/page.js",
   "/Experiences/page": "app/Experiences/page.js",
-  "/Contact/page": "app/Contact/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/Contact/page": "app/Contact/page.js"
 }

@@ -35,7 +35,7 @@
 }
 
 .experiences_cardContainer__prbkS {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -45,9 +45,9 @@
     gap: 1.5rem;
     position: fixed;
     right: 1rem;
-    top: 25%;
+    top: 26%;
     background-color: #436072; /* Fond sombre pour le menu deroulant */
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 8px;
     transition: all 0.3s ease;
 }
@@ -81,9 +81,9 @@
     align-items: center;
     background-color: #212936; /* Fond gris foncé des cartes */
     border-radius: 1.4rem;
-    border: 2px solid #212936; /* Bordure gris foncé */
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.2);
     padding: 1.5rem;
-    width: 100%;
+    width: 85%;
     margin-bottom: 2rem;
     position: relative;
     transition: all 0.5s ease;
