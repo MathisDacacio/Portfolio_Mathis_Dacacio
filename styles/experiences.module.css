@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background-color: #1c1c1c; /* Fond sombre */
+    background-color: #212936; /* Fond sombre */
     color: white;
     position: relative;
 }
@@ -20,7 +20,7 @@
 .pageTitle {
     font-size: 4rem;
     font-weight: bold;
-    color: #ffcc00; /* Couleur jaune/orange */
+    color: white; /* Couleur titre */
     transition: all 0.5s ease;
 }
 
@@ -43,7 +43,7 @@
     position: fixed;
     right: 1rem;
     top: 25%;
-    background-color: #2e2e2e; /* Fond sombre pour le menu deroulant */
+    background-color: #436072; /* Fond sombre pour le menu deroulant */
     padding: 2rem;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -67,17 +67,18 @@
 }
 
 .active {
-    background-color: #fbbf24; /* Couleur jaune/orange */
+    background-color: #c2a457; /* Couleur jaune */
     color: black;
-    border: 2px solid #fbbf24;
+    border: 2px solid #c2a457;
     transition: all 0.3s ease;
 }
 
 .card {
     display: flex;
     align-items: center;
-    background-color: #2e2e2e; /* Fond gris foncé des cartes */
-    border-radius: 1rem;
+    background-color: #212936; /* Fond gris foncé des cartes */
+    border-radius: 1.4rem;
+    border: 2px solid #212936; /* Bordure gris foncé */
     padding: 1.5rem;
     width: 100%;
     margin-bottom: 2rem;
@@ -116,7 +117,7 @@
 
 .competences {
     font-size: 20px;
-    color: #86c865;
+    color: #cfdee7;
 }
 
 /* link */

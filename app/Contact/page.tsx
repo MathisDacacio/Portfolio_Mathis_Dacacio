@@ -22,7 +22,7 @@ export default function Contact() {
       .then(
         () => {
           setIsSubmitted(true);
-          alert("Message envoyé avec succès !");
+          alert("Message envoyé avec succès !");  // remplacer l'alerte par juste un pop up
         },
         (error) => {
           console.error("Erreur EmailJS :", error);
@@ -114,10 +114,6 @@ export default function Contact() {
           </form>
         </div>
       </main>
-
-      <div>
-        <img src="bandeau_portfolio_informatique.png" alt="Bandeau développeur informatique" className={styles.bandeau} />
-      </div>
     </div>
   );
 }

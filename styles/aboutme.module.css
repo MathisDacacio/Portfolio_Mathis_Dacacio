@@ -1,68 +1,96 @@
-.menuWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    position: fixed;
-    right: 2rem;
-    top: 25%;
-    background-color: #2e2e2e; /* Fond sombre pour le menu deroulant */
-    padding: 2rem;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-}
-
-.menuButton {
-    padding: 1rem;
-    border-radius: 8px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-align: center;
-    transition: all 0.3s ease;
-    background-color: #374151; /* Fond sombre pour les boutons */
-    color: #f3f4f6; /* Texte clair */
-    border: none;
-    cursor: pointer;
-}
-
-.menuButton:hover {
-    background-color: #475569; /* Couleur plus foncée au survol */
-}
-
-.active {
-    background-color: #fbbf24;
-    color: black;
-    border: 2px solid #fbbf24;
-    transition: all 0.3s ease;
-}
-
 .pageWrapper {
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background-color: #1c1c1c; /* Fond sombre */
+    background-color: #212936; /* Fond */
     color: white;
     position: relative;
 }
 
+
+  
 .pageTitle {
     display: flex;
     justify-content: center;
+    padding-top: 4%;
     font-size: 3rem;
     font-weight: bold;
-    color: #ffcc00; /* Couleur jaune/orange */
+    color: white; /* Couleur titre */
 }
 
-.imageStyle {
-    border-radius: 1rem;
-}
-
-.contentdiv {
-    font-size: 1.2rem;
+.actualite {
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 20% 2% 20%;
+    font-size: 1.4rem;
 }
 
 .linkStyle {
     color: #1e90ff;
     font-size: 29px;
-    text-decoration: none;
+    text-decoration: underline;
     transition: all 0.3s ease;
 }
+
+.carouselContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+  }
+  
+  .cardWrapper {
+    width: 550px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card h3 {
+    font-size: 4rem;
+    color: #212936;
+    margin-bottom: 30px;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card li {
+    font-size: 2rem;
+    color: #212936;
+    margin: 10px 0;
+  }
+  
+  .navButton {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #212936;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .navButton:hover {
+    background-color: #e6b800;
+  }
+  
+  

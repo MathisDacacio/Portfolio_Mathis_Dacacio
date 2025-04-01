@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1c1c1c;
+  background-color: #212936; /* Fond sombre */
   color: white;
   min-height: 100vh;
   padding: 2rem;
@@ -50,7 +50,7 @@
 .contact_title__3ckDM {
   font-size: 1.875rem;
   font-weight: bold;
-  color: #ffcc00;
+  color: white;
 }
 
 /* Texte */
@@ -109,8 +109,8 @@
 
 .contact_input__mykbS:focus,
 .contact_textarea__tnXig:focus {
-  border-color: #ffcc00;
-  box-shadow: 0 0 0 2px #ffcc00;
+  border-color: #c2a457;
+  box-shadow: 0 0 0 2px #c2a457;
 }
 
 .contact_textarea__tnXig {
